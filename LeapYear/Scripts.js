@@ -26,24 +26,6 @@ function Leap(){
 
 }
 
-
- ///////// Code for Calculate Area /////////*
- /*
- let A = Math.sqrt(semiPeri*(semiPeri-FSide)*(semiPeri-SSide)*(semiPeri-LSide));
-
- ////////// Convert the Code into 2 Decimal Places //////////
- let Area = A.toFixed(2);
-
- console.log(Area);
-   //////// Printing the Output  ////////
-
- let Answer = document.getElementById("Answer").innerHTML=`
- <p class="fs-2 mt-2 text-center px-2 border rounded-3 border-3 bg-white"> The Area of Triangle = ${Area}</p>
- `;
-}
-
-*/
-
 function Code(){
     let Sc = document.getElementById("Sc");
     window.open(Sc);
